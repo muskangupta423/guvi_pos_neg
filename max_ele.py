@@ -1,11 +1,12 @@
 n=int(input())
-lst=list(map(str,input().split()))
+l=list(map(str,input().split()))
 m=l[0]
-for i in range(len(lst)):
-	if(lst[i].isalpha()):
+m=int(m)
+for i in range(len(l)):
+	if(l[i].isalpha()):
 		print('Invalid Input')
 		exit()		
 	else:
-		if(lst[i]>m):
-			m=lst[i]
-print(m)
+		if(int(l[i])>m):
+			m=int(l[i])
+print(m)				
