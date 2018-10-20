@@ -7,5 +7,5 @@ for i in range(len(lst)):
 		exit()		
 	else:
 		if(lst[i]>m):
-			m=l[i]
+			m=lst[i]
 print(m)
